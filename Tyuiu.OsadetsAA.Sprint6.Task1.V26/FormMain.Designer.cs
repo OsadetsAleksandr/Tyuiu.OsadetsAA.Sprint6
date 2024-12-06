@@ -133,10 +133,12 @@
             // 
             // textBoxResult
             // 
+            textBoxResult.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 204);
             textBoxResult.Location = new Point(6, 26);
             textBoxResult.Multiline = true;
             textBoxResult.Name = "textBoxResult";
             textBoxResult.ReadOnly = true;
+            textBoxResult.ScrollBars = ScrollBars.Vertical;
             textBoxResult.Size = new Size(238, 360);
             textBoxResult.TabIndex = 0;
             // 
