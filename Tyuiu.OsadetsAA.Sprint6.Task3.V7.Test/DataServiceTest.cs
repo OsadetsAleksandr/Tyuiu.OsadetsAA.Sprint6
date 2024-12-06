@@ -26,10 +26,10 @@ namespace Tyuiu.OsadetsAA.Sprint6.Task3.V7.Test
             };
 
             int[,] expectedmrtx = {
-                { 4, 15, 34, -6, -10 },
+                { 31, 25, -18, -6, 9 },
                 { 6, 34, -2, 2, -18 },
                 { -5, 4, 27, 4, -1 },
-                { 31, 25, -18, 12, 9 },
+                { 4, 15, 34, 12, -10 },
                 { 0, 8, 5, 14, -17 }
             };
             var res = ds.Calculate(mrtx);
