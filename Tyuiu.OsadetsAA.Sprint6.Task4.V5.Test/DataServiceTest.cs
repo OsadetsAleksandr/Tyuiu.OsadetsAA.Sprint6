@@ -7,7 +7,7 @@ namespace Tyuiu.OsadetsAA.Sprint6.Task4.V5.Test
         [TestMethod]
         public void ValidGetMassFunction()
         {
-            DataService ds = new DataService();
+            DataService ds = new DataService():
             int startValue = -5;
             int stopValue = 5;
             var res = ds.GetMassFunction(startValue, stopValue);
