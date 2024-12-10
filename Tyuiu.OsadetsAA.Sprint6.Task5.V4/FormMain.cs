@@ -10,7 +10,7 @@ namespace Tyuiu.OsadetsAA.Sprint6.Task5.V4
         }
         DataService ds = new DataService();
 
-        string path = @"C:\Users\Mecht\source\repos\Tyuiu.OsadetsAA.Sprint6\Tyuiu.OsadetsAA.Sprint6.Task5.V.Lib\bin\Debug\InPutDataFileTask5V4.txt";
+        string path = @"C:\Users\Mecht\source\repos\Tyuiu.OsadetsAA.Sprint6\Tyuiu.OsadetsAA.Sprint6.Task5.V4.Lib\bin\Debug\InPutDataFileTask5V4.txt";
         private void buttonDone_OAA_Click(object sender, EventArgs e)
         {
             dataGridViewNums_OAA.ColumnCount = 2;

@@ -7,7 +7,7 @@ namespace Tyuiu.OsadetsAA.Sprint6.Task5.V4.Test
         [TestMethod]
         public void ValidLoadFromDataFile()
         { //C:\Users\Mecht\source\repos\Tyuiu.OsadetsAA.Sprint6\Tyuiu.OsadetsAA.Sprint6.Task5.V4.Lib\bin\Debug
-            string[] paths = { @"C:\Users", "Mecht", "source", "repos", "Tyuiu.OsadetsAA.Sprint6", "Tyuiu.OsadetsAA.Sprint6.Task5.V4.Lib", "bin", "Debug", "InPutDataFileTask5V4.txt" };
+            string[] paths = { @"C:\Users", "Mecht", "source", "repos", "Tyuiu.OsadetsAA.Sprint", "Tyuiu.OsadetsAA.Sprint6.Task5.V4.Lib", "bin", "Debug", "InPutDataFileTask5V4.txt" };
             string fullPath = Path.Combine(paths);
 
 
