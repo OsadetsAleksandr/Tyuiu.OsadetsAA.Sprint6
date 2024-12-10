@@ -86,7 +86,12 @@ namespace Tyuiu.OsadetsAA.Sprint6.Task4.V5
 
         private void buttonQuestion_OAA_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Таск 4 выполнил студент группы ПКТб-24-1 Осадец Аелксандр Александрович", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Очень сильно люблю солнышко <3", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
     }
 }

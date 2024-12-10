@@ -47,7 +47,15 @@ namespace Tyuiu.OsadetsAA.Sprint6.Task3.V7
 
         private void buttonDone_Click(object sender, EventArgs e)
         {
-            textBoxResult.Text = Convert.ToString(ds.Calculate(mrtx));
+            int[,] martx = ds.Calculate(mrtx);
+            for (int i = 0; i < martx.GetLength(0); i++)
+            {
+                for (int j = 0; j < martx.GetLength(1); j++)
+                {
+                    textBoxResult.AppendText(Convert.ToString(martx[i, j]) + "   ");
+                }
+                textBoxResult.AppendText(Environment.NewLine);
+            }
         }
     }
 }

@@ -48,6 +48,7 @@
             panel2 = new Panel();
             panel3 = new Panel();
             splitter1 = new Splitter();
+            button1 = new Button();
             groupBoxTask_OAA.SuspendLayout();
             groupBoxData_OAA.SuspendLayout();
             groupBoxResult_OAA.SuspendLayout();
@@ -72,6 +73,7 @@
             // groupBoxData_OAA
             // 
             groupBoxData_OAA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            groupBoxData_OAA.Controls.Add(button1);
             groupBoxData_OAA.Controls.Add(textBoxStartStep_OAA);
             groupBoxData_OAA.Controls.Add(buttonQuestion_OAA);
             groupBoxData_OAA.Controls.Add(buttonSave_OAA);
@@ -239,6 +241,16 @@
             splitter1.TabIndex = 4;
             splitter1.TabStop = false;
             // 
+            // button1
+            // 
+            button1.Location = new Point(364, 80);
+            button1.Name = "button1";
+            button1.Size = new Size(115, 46);
+            button1.TabIndex = 5;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // FormMain
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -282,5 +294,6 @@
         private Panel panel2;
         private Panel panel3;
         private Splitter splitter1;
+        private Button button1;
     }
 }
