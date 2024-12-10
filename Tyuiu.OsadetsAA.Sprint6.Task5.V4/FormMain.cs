@@ -14,7 +14,7 @@ namespace Tyuiu.OsadetsAA.Sprint6.Task5.V4
         private void buttonDone_OAA_Click(object sender, EventArgs e)
         {
             dataGridViewNums_OAA.ColumnCount = 2;
-            dataGridViewNums_OAA.Columns[0].Width = 50;
+            dataGridViewNums_OAA.Columns[0].Width = 40;
             dataGridViewNums_OAA.Columns[1].Width = 50;
 
             this.chartResult_OAA.ChartAreas[0].AxisX.Title = "Îñü X";

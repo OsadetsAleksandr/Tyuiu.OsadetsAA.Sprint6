@@ -16,6 +16,7 @@ namespace Tyuiu.OsadetsAA.Sprint6.Task5.V4.Lib
                     len++;
                 }
             }
+
             double[] numsArray = new double[len];
             int index = 0;
             using (StreamReader reader = new StreamReader(path))
