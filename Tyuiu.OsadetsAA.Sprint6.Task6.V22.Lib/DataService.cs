@@ -14,7 +14,7 @@ namespace Tyuiu.OsadetsAA.Sprint6.Task6.V22.Lib
                         var FirstWords = line.Split(' ', StringSplitOptions.RemoveEmptyEntries).FirstOrDefault() ?? string.Empty;
                         if (FirstWords.Length > 0)
                         {
-                            firstWords.Add(FirstWords[FirstWords.Lenght - 1]);
+                            firstWords.Add(FirstWords);
                         }
                     }
                 }
