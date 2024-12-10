@@ -18,7 +18,6 @@ namespace Tyuiu.OsadetsAA.Sprint6.Task6.V22.Lib
                         }
                     }
                 }
-                return string.Join(" ", firstWords);
         }
     }
 }
