@@ -5,20 +5,20 @@ namespace Tyuiu.OsadetsAA.Sprint6.Task6.V22.Lib
     {
         public string CollectTextFromFile(string path)
         {
-            List<string> firstWords = new List<string>();
-            using (StreamReader reader = new StreamReader(path))
-            {
-                string line;
-                while ((line = reader.ReadLine()) != null)
+                List<string> firstWords = new List<string>();
+                using (StreamReader reader = new StreamReader(path))
                 {
-                    var FirstWords = line.Split(' ', StringSplitOptions.RemoveEmptyEntries).FirstOrDefault() ?? string.Empty);
-                    if (FirstWords.Length > 0)
+                    string line;
+                    while ((line = reader.ReadLine()) != null)
                     {
-                        firstWords.Add(FirstWords[FirstWords.Lenght - 1]);
+                        var FirstWords = line.Split(' ', StringSplitOptions.RemoveEmptyEntries).FirstOrDefault() ?? string.Empty);
+                        if (FirstWords.Length > 0)
+                        {
+                            firstWords.Add(FirstWords[FirstWords.Lenght - 1]);
+                        }
                     }
                 }
-            }
-            return string.Join(" ", firstWords);
+                return string.Join(" ", firstWords);
         }
     }
 }
