@@ -29,7 +29,7 @@ namespace Tyuiu.OsadetsAA.Sprint6.Task5.V4.Lib
                 }
             }
             numsArray = numsArray.Where(val => val % 1 == 0).ToArray();
-            return new double[] { 1.0, 3.0, -1.0, -3.0, 0.0, -5.0, 6.0, 7.0, -7.0, 8.0, -8.0, -9.0, 10.0, -10.0, 0.0 };
+            return numsArray;
         }
     }
 }
