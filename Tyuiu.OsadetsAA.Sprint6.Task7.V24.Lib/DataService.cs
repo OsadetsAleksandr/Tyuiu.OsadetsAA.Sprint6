@@ -29,7 +29,7 @@ namespace Tyuiu.OsadetsAA.Sprint6.Task7.V24.Lib
             {
                 for (int j = 0; j < arrayValues.GetLength(1); j++)
                 {
-                    if (j == 1 && arrayValues[i, j] % 2 == 0)
+                    if (i == 1 && arrayValues[i, j] % 2 == 0)
                     {
                         arrayValues[i, j] = 1;
                     }
