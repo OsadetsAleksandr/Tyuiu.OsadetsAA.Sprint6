@@ -112,6 +112,7 @@
             // 
             // buttonDone_OAA
             // 
+            buttonDone_OAA.Enabled = false;
             buttonDone_OAA.Image = (Image)resources.GetObject("buttonDone_OAA.Image");
             buttonDone_OAA.Location = new Point(106, 12);
             buttonDone_OAA.Name = "buttonDone_OAA";
